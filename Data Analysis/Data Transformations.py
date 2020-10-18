@@ -228,6 +228,10 @@ for week in range(1, rosters['num_weeks']+1): #16 weeks total
 
         df_wk_roster = pd.concat([df_wk_roster, df_manager_team], axis=1) # join the full league weekly roster with managers name
         df_wk_points = pd.concat([df_wk_points, df_points], axis=1)
+        
+        #create row for total point for active position
+        pos = ('QB', 'WR1', 'WR2', 'RB1', 'RB2', 'TE', 'W/R/T', 'K', 'DEF')
+        df_wk_points.loc['TotalPoints'] = df_wk_points.loc[list(pos), :].sum()
         team += 1
         #### END TEAM FOR LOOP  ####
         #### CONTINUE WEEK LOOP ####
