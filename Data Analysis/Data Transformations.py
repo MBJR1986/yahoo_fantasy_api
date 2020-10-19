@@ -86,7 +86,7 @@ for week in range(1, rosters['num_weeks']+1): #16 weeks total
         df_points = pd.DataFrame(columns=['player_points'], index = new_index)
 
         team_number = int(roster['fantasy_content']['team'][0][1]['team_id'])
-        manager_name = roster['fantasy_content']['team'][0][19]['managers'][0]['manager']['nickname']
+        manager_name = roster['fantasy_content']['team'][0][2]['name']
 
         player_num = 0
         player_index = roster['fantasy_content']['team'][1]['roster']['0']['players'] # in case a manager does not have all 16 roster spots filled
