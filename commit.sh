@@ -1,6 +1,7 @@
 #!/bin/sh
 cd ~/nfl-fantasy-football_Group1/
 
+git status
 git add --all
 timestamp() {
   date +"at %H:%M:%S on %d/%m/%Y"
