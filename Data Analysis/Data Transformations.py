@@ -12,7 +12,7 @@ from json import dumps
 from pandas.io.json import json_normalize
 import seaborn
 
-with open('../auth/oauth2yahoo.json') as json_yahoo_file:
+with open('C:/Users/mabur/nfl-fantasy-football_Group1/auth/oauth2yahoo.json') as json_yahoo_file:
     auths = json.load(json_yahoo_file)
 yahoo_consumer_key = auths['consumer_key']
 yahoo_consumer_secret = auths['consumer_secret']
@@ -20,7 +20,7 @@ yahoo_access_key = auths['access_token']
 
 json_yahoo_file.close()
 
-oauth = OAuth2(None, None, from_file='../auth/oauth2yahoo.json')
+oauth = OAuth2(None, None, from_file='C:/Users/mabur/nfl-fantasy-football_Group1/auth/oauth2yahoo.json')
 if not oauth.token_is_valid():
     oauth.refresh_access_token()
 
@@ -28,7 +28,7 @@ if not oauth.token_is_valid():
 ##### CREATE NEW DATAFRAME TO STORE WEEKLY LEAGUE ROSTERS #####
 ##### AND PLAYER POINTS PER WEEK                          #####
 ###############################################################
-with open('../Initial_Setup/league_info_form.txt', 'r') as f:
+with open('C:/Users/mabur/nfl-fantasy-football_Group1/Initial_Setup/league_info_form.txt', 'r') as f:
     rosters = eval(f.read())
 
 league_id = str(rosters['league_id'])
@@ -56,7 +56,7 @@ df_wk_players = df_wk_players.set_index('player_key')
 df_wk_points = pd.DataFrame(index = new_index)
 
 # import dictionary of Yahoo Manager Names to Real Life Nicknames
-with open('../teams/team_mapping_full.txt', 'r') as f:
+with open('C:/Users/mabur/nfl-fantasy-football_Group1/teams/team_mapping_full.txt', 'r') as f:
     name_dict = dict(eval(f.read()))
 
 ##### LOOP THROUGH ALL WEEKS, TEAMS, AND PLAYERS #####
@@ -71,7 +71,7 @@ for week in range(1, rosters['num_weeks']+1): #16 weeks total
     for team in range(1, rosters['num_teams']+1): #assuming 12 teams
         print(team, end=" ")
         tm_wk = 'team_'+str(team)+'_wk_' + str(week) + '_roster.json'
-        path = '../rosters/week_'+str(week)+'/'
+        path = 'C:/Users/mabur/nfl-fantasy-football_Group1/rosters/week_'+str(week)+'/'
         file_name = path + tm_wk
 
         load_file = open(file_name) # load roster JSON from initial data scrape
@@ -242,12 +242,12 @@ for week in range(1, rosters['num_weeks']+1): #16 weeks total
     #*************************************
 
     wk_roster = 'wk_' + str(week) + '_roster.csv'
-    path = './weekly_rosters/'
+    path = 'C:/Users/mabur/nfl-fantasy-football_Group1/weekly_rosters/'
     file_name = path + wk_roster
     df_wk_roster.to_csv(file_name, sep=',', encoding='utf-8')
 
     wk_scores = 'wk_' + str(week) + '_scores.csv'
-    path = './weekly_scores/'
+    path = 'C:/Users/mabur/nfl-fantasy-football_Group1/weekly_scores/'
     file_name = path + wk_scores
     df_wk_points.to_csv(file_name, sep=',', encoding='utf-8')
 
