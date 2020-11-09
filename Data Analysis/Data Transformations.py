@@ -33,7 +33,7 @@ with open('C:/Users/mabur/nfl-fantasy-football_Group1/Initial_Setup/league_info_
 
 league_id = str(rosters['league_id'])
 
-with open('../YahooGameInfo.json', 'r') as f:
+with open('C:/Users/mabur/nfl-fantasy-football_Group1/YahooGameInfo.json', 'r') as f:
     yahoo_info = json.load(f)
 game_key = yahoo_info['fantasy_content']['game'][0]['game_key']
 

@@ -24,18 +24,18 @@ class UpdateData():
         # TRANSACTIONS
         # Convert existing 'Transactions_new.json' into 'Transactions_old.json' before
         #### downloading up-to-date new transactions
-        load_file = open('./transactions/Transaction_old.json') # load old_transactions
+        load_file = open('C:/Users/mabur/nfl-fantasy-football_Group1/transactions/Transaction_old.json') # load old_transactions
         old_transactions = json.load(load_file)
         load_file.close()
 
-        load_file = open('./transactions/Transaction_new.json') # load new_transactions (this will get written over once we download the newest data from Yahoo)
+        load_file = open('C:/Users/mabur/nfl-fantasy-football_Group1/transactions/Transaction_new.json') # load new_transactions (this will get written over once we download the newest data from Yahoo)
         new_transactions = json.load(load_file)
         load_file.close()
 
-        with open('./transactions/Transaction_old.json', 'w') as outfile: # save the new*_transactions as old so we can compare the actual new transactions
+        with open('C:/Users/mabur/nfl-fantasy-football_Group1/transactions/Transaction_old.json', 'w') as outfile: # save the new*_transactions as old so we can compare the actual new transactions
             json.dump(new_transactions, outfile)
 
-        load_file = open('./transactions/Transaction_old.json') # now load the *new* old_transactions as the base for comparison
+        load_file = open('C:/Users/mabur/nfl-fantasy-football_Group1/transactions/Transaction_old.json') # now load the *new* old_transactions as the base for comparison
         old_transactions = json.load(load_file)
         load_file.close()
 
@@ -43,10 +43,10 @@ class UpdateData():
         url = 'https://fantasysports.yahooapis.com/fantasy/v2/league/'+game_key+'.l.'+league_id+'/transactions'
         response = oauth.session.get(url, params={'format': 'json'})
         r = response.json()
-        with open('./transactions/Transaction_new.json', 'w') as outfile:
+        with open('C:/Users/mabur/nfl-fantasy-football_Group1/transactions/Transaction_new.json', 'w') as outfile:
             json.dump(r, outfile)
         #### load in newest transaction data
-        load_file = open('./transactions/Transaction_new.json')
+        load_file = open('C:/Users/mabur/nfl-fantasy-football_Group1/transactions/Transaction_new.json')
         new_transactions = json.load(load_file)
         load_file.close()
 
@@ -59,7 +59,7 @@ class UpdateData():
 
         #load team number and names references as a dictionary
         team_numbers = {}
-        with open('./teams/team_numbers.txt', 'r') as f:
+        with open('C:/Users/mabur/nfl-fantasy-football_Group1/teams/team_numbers.txt', 'r') as f:
             #for line in f:
             team_numbers= eval(f.read())
 
@@ -189,7 +189,7 @@ class UpdateData():
             response = oauth.session.get(url, params={'format': 'json'})
             r = response.json()
             file_name = 'week_' + str(week) + 'scoreboard.json'
-            with open('./weekly_scoreboard/'+file_name, 'w') as outfile:
+            with open('C:/Users/mabur/nfl-fantasy-football_Group1/weekly_scoreboard/'+file_name, 'w') as outfile:
                 json.dump(r, outfile)
             week += 1
         return;
@@ -219,7 +219,7 @@ class UpdateData():
                 response = oauth.session.get(url, params={'format': 'json'})
                 r = response.json()
                 file_name = 'team_'+str(team)+'_wk_' + str(week) + '_roster.json'
-                with open('./rosters/week_'+str(week)+'/'+ file_name, 'w') as outfile:
+                with open('C:/Users/mabur/nfl-fantasy-football_Group1/rosters/week_'+str(week)+'/'+ file_name, 'w') as outfile:
                     json.dump(r, outfile)
                 team =+ 1
             print("Week",week, "roster update - done")
@@ -228,7 +228,7 @@ class UpdateData():
 
 def CurrentWeek():
     current_week = 1
-    #with open('./league.json', 'r') as fobj:
+    #with open('C:/Users/mabur/nfl-fantasy-football_Group1/league.json', 'r') as fobj:
     #    info = json.load(fobj)
     #current_week = info['fantasy_content']['league'][0]['current_week']
     return current_week;
