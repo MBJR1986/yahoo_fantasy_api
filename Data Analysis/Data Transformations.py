@@ -242,12 +242,12 @@ for week in range(1, rosters['num_weeks']+1): #16 weeks total
     #*************************************
 
     wk_roster = 'wk_' + str(week) + '_roster.csv'
-    path = 'C:/Users/mabur/nfl-fantasy-football_Group1/weekly_rosters/'
+    path = './weekly_rosters/'
     file_name = path + wk_roster
     df_wk_roster.to_csv(file_name, sep=',', encoding='utf-8')
 
     wk_scores = 'wk_' + str(week) + '_scores.csv'
-    path = 'C:/Users/mabur/nfl-fantasy-football_Group1/weekly_scores/'
+    path = './weekly_scores/'
     file_name = path + wk_scores
     df_wk_points.to_csv(file_name, sep=',', encoding='utf-8')
 
