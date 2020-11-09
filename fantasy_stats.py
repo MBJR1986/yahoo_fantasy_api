@@ -13,7 +13,7 @@ class Yahoo_Api():
         self._authorization = None
     def _login(self):
         global oauth
-        oauth = OAuth2(None, None, from_file='./auth/oauth2yahoo.json')
+        oauth = OAuth2(None, None, from_file='C:/Users/mabur/nfl-fantasy-football_Group1/auth/oauth2yahoo.json')
         if not oauth.token_is_valid():
             oauth.refresh_access_token()
 
@@ -258,7 +258,7 @@ def main():
     global current_week
     current_week = CurrentWeek()
 
-    with open('./Initial_Setup/league_info_form.txt', 'r') as f:
+    with open('C:/Users/mabur/nfl-fantasy-football_Group1/Initial_Setup/league_info_form.txt', 'r') as f:
         rosters = eval(f.read())
 
     global num_teams
