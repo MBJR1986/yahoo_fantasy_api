@@ -241,7 +241,7 @@ def main():
 ##### Get Yahoo Auth ####
 
     # Yahoo Keys
-    with open('./auth/oauth2yahoo.json') as json_yahoo_file:
+    with open('C:/Users/mabur/nfl-fantasy-football_Group1/auth/oauth2yahoo.json') as json_yahoo_file:
         auths = json.load(json_yahoo_file)
     yahoo_consumer_key = auths['consumer_key']
     yahoo_consumer_secret = auths['consumer_secret']
