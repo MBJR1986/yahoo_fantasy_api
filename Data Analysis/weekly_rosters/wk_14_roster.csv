@@ -1,18 +1,25 @@
 ,Shake and Bakers,UcanDereklickmyBalls,Mister Robinsons,Hos' Hebdomadal Team,Kittle One Martini,Keep Calm & Kerryon,The Seedy Lambs,Hines 57,Richard's Team,Scott's Team
-QB,Kyler Murray,Aaron Rodgers,Ryan Tannehill,Deshaun Watson,Russell Wilson,Matthew Stafford,Josh Allen,Cam Newton,Ben Roethlisberger,Patrick Mahomes
-WR1,Keenan Allen,Justin Jefferson,Davante Adams,Tyler Lockett,DK Metcalf,Robby Anderson,Will Fuller V,Tyreek Hill,Calvin Ridley,Diontae Johnson
-WR2,DeAndre Hopkins,Jarvis Landry,Terry McLaurin,JuJu Smith-Schuster,Stefon Diggs,DJ Chark Jr.,Mike Evans,Cooper Kupp,Darius Slayton,DeVante Parker
-RB1,Nick Chubb,Derrick Henry,James Robinson,Alvin Kamara,Antonio Gibson,Dalvin Cook,James Conner,Nyheim Hines,Clyde Edwards-Helaire,Todd Gurley II
-RB2,David Montgomery,Leonard Fournette,Kenyan Drake,Miles Sanders,Kalen Ballage,Ezekiel Elliott,Aaron Jones,Chris Carson,Boston Scott,Gus Edwards
-TE,Hunter Henry,Jordan Reed,Dallas Goedert,Darren Waller,Austin Hooper,T.J. Hockenson,Rob Gronkowski,Travis Kelce,Mike Gesicki,Hayden Hurst
-W/R/T,Michael Thomas,Curtis Samuel,Robert Woods,Josh Jacobs,Chase Claypool,Marvin Jones Jr.,Julio Jones,A.J. Brown,Evan Engram,T.Y. Hilton
-BN1,Chase Edmonds,Noah Fant,Duke Johnson,Brandin Cooks,Tee Higgins,Devin Singletary,Kareem Hunt,Damien Harris,Cam Akers,Kenny Golladay
-BN2,Jimmy Graham,Mike Williams,Giovani Bernard,Corey Davis,Chris Godwin,Mark Andrews,Matt Ryan,DJ Moore,Adam Thielen,Allen Lazard
-BN3,Justin Herbert,Lamar Jackson,Tyler Boyd,Alexander Mattison,Jakobi Meyers,Marquise Brown,CeeDee Lamb,Melvin Gordon III,Laviska Shenault Jr.,Julian Edelman
-BN4,Amari Cooper,Adrian Peterson,Jonnu Smith,Latavius Murray,Jonathan Taylor,Ronald Jones II,Eric Ebron,Phillip Lindsay,D'Andre Swift,Malcolm Brown
-BN5,Jamaal Williams,Christian McCaffrey,Allen Robinson II,Mike Davis,Jerry Jeudy,A.J. Green,Benny Snell Jr.,Carson Wentz,Jared Goff,Jared Cook
-BN6,Salvon Ahmed,Sammy Watkins,Darrell Henderson Jr.,Tom Brady,J.K. Dobbins,Antonio Brown,J.D. McKissic,Raheem Mostert,Greg Zuerlein,Christian Kirk
-BN7,Josh Reynolds,,Zack Moss,Miami,Justin Tucker,Wayne Gallman Jr.,Seattle,New England,Los Angeles,Jason Myers
-BN8,,,,,,,,,,
-K,Jason Sanders,Daniel Carlson,Harrison Butker,Joey Slye,Tyler Bass,Ryan Succop,Younghoe Koo,Wil Lutz,Zane Gonzalez,Rodrigo Blankenship
-DEF,Pittsburgh,Baltimore,Washington,Arizona,Green Bay,Buffalo,Cleveland,New York,New Orleans,Los Angeles
+QB,Justin Herbert,Aaron Rodgers,,Deshaun Watson,Russell Wilson,Matthew Stafford,Josh Allen,Cam Newton,Ben Roethlisberger,Patrick Mahomes
+WR1,Keenan Allen,Justin Jefferson,Robert Woods,Tyler Lockett,DK Metcalf,DJ Chark Jr.,Julio Jones,Tyreek Hill,Calvin Ridley,Diontae Johnson
+WR2,DeAndre Hopkins,Jarvis Landry,,Brandin Cooks,Stefon Diggs,Robby Anderson,Mike Evans,Cooper Kupp,Adam Thielen,DeVante Parker
+RB1,Nick Chubb,Derrick Henry,,Alvin Kamara,Antonio Gibson,Dalvin Cook,Aaron Jones,Raheem Mostert,Clyde Edwards-Helaire,Todd Gurley II
+RB2,David Montgomery,Devontae Booker,,Josh Jacobs,Austin Ekeler,Ezekiel Elliott,J.D. McKissic,Chris Carson,Cam Akers,Gus Edwards
+TE,Hunter Henry,Noah Fant,,Darren Waller,Austin Hooper,T.J. Hockenson,Eric Ebron,Travis Kelce,Mike Gesicki,Hayden Hurst
+W/R/T,Michael Thomas,Brandon Aiyuk,,Corey Davis,Jonathan Taylor,Marvin Jones Jr.,James Conner,A.J. Brown,Darius Slayton,Christian Kirk
+BN1,Kyler Murray,James White,Dallas Goedert,Miles Sanders,Chase Claypool,Marquise Brown,CeeDee Lamb,Nyheim Hines,Evan Engram,T.Y. Hilton
+BN2,Chase Edmonds,Adrian Peterson,Kenyan Drake,JuJu Smith-Schuster,Chris Godwin,A.J. Green,Kareem Hunt,Damien Harris,Boston Scott,Kenny Golladay
+BN3,Amari Cooper,Leonard Fournette,James Robinson,Latavius Murray,Kalen Ballage,Antonio Brown,Benny Snell Jr.,DJ Moore,Laviska Shenault Jr.,Allen Lazard
+BN4,Jamaal Williams,Mike Williams,Allen Robinson II,Mike Davis,Tee Higgins,Devin Singletary,Sterling Shepard,Melvin Gordon III,D'Andre Swift,Julian Edelman
+BN5,Myles Gaskin,Lamar Jackson,Davante Adams,Tom Brady,Jerry Jeudy,Mark Andrews,Rob Gronkowski,Phillip Lindsay,Jared Goff,Malcolm Brown
+BN6,Kansas City,Christian McCaffrey,Ryan Tannehill,Robert Tonyan,J.K. Dobbins,Ronald Jones II,Zach Ertz,Carson Wentz,Greg Zuerlein,Jared Cook
+BN7,,Sammy Watkins,Giovani Bernard,Miami,Carlos Hyde,Wayne Gallman Jr.,,New York,Los Angeles,Jason Myers
+BN8,,,Taysom Hill,,,,,,,
+K,Jason Sanders,Daniel Carlson,,Matt Gay,Justin Tucker,Matt Prater,Younghoe Koo,Wil Lutz,Zane Gonzalez,Rodrigo Blankenship
+DEF,Pittsburgh,Seattle,,Arizona,Green Bay,Buffalo,Baltimore,New England,New Orleans,Los Angeles
+BN9,,,Terry McLaurin,,,,,,,
+BN10,,,Tyler Boyd,,,,,,,
+BN11,,,Zack Moss,,,,,,,
+BN12,,,Frank Gore,,,,,,,
+BN13,,,Deebo Samuel,,,,,,,
+BN14,,,Harrison Butker,,,,,,,
+BN15,,,Las Vegas,,,,,,,
