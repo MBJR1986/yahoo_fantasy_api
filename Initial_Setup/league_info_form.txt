@@ -1,7 +1,7 @@
 {
-  "league_id": 1042661,
+  "league_id": 884189,
   "num_teams": 10,
-  "num_weeks": 16,
+  "num_weeks": 17,
   "roster": [
             'QB',
             'WR1', 'WR2',
