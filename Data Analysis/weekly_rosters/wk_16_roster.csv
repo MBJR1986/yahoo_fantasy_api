@@ -1,18 +1,25 @@
 ,ShemmDevil,Burghart #1 Enemy,You're Not That Guy Pal,Bishop Sycamore HS,Keep Calm & Kerryon,Jameis Winston Apologists,Two Titans One Kupp,Show Us Your Pitts,Cornfield Jesus,Fuck.
-QB,Kyler Murray,Ryan Tannehill,Justin Herbert,Josh Allen,Tom Brady,Jalen Hurts,Aaron Rodgers,Russell Wilson,Patrick Mahomes,Dak Prescott
-WR1,Marquise Brown,Tyler Lockett,Tyreek Hill,Mike Evans,Ja'Marr Chase,Hunter Renfrow,Chris Godwin,DK Metcalf,Justin Jefferson,Diontae Johnson
-WR2,Russell Gage,Davante Adams,Mike Williams,Deebo Samuel,Jaylen Waddle,DeAndre Hopkins,Cooper Kupp,Jalen Guyton,Terry McLaurin,Stefon Diggs
-RB1,Joe Mixon,Najee Harris,David Montgomery,Leonard Fournette,Aaron Jones,Austin Ekeler,Darrell Henderson Jr.,Saquon Barkley,Dalvin Cook,Ezekiel Elliott
-RB2,Clyde Edwards-Helaire,Nick Chubb,Jonathan Taylor,James Conner,Alvin Kamara,Melvin Gordon III,D'Andre Swift,Antonio Gibson,Eno Benjamin,James Robinson
-TE,Austin Hooper,Dalton Schultz,Mark Andrews,George Kittle,Zach Ertz,Dallas Goedert,Noah Fant,Mike Gesicki,Rob Gronkowski,Jared Cook
-W/R/T,Chase Claypool,Chuba Hubbard,CeeDee Lamb,Travis Kelce,Josh Jacobs,Van Jefferson Jr.,Odell Beckham Jr.,Jeff Wilson Jr.,Courtland Sutton,Brandon Aiyuk
-BN1,Brandin Cooks,Elijah Moore,Michael Pittman Jr.,Amari Cooper,DJ Moore,JaMycal Hasty,D'Onta Foreman,Kyle Pitts,Mark Ingram II,Darrel Williams
-BN2,T.J. Hockenson,Derek Carr,Javonte Williams,Cordarrelle Patterson,Tyler Higbee,Dawson Knox,Alexander Mattison,Julio Jones,Damien Harris,Matthew Stafford
-BN3,Jakobi Meyers,Keenan Allen,Jerry Jeudy,Antonio Brown,Sony Michel,Cam Newton,Miles Sanders,AJ Dillon,Carson Wentz,Tony Pollard
-BN4,Nyheim Hines,Devonta Freeman,Michael Gallup,Ty Johnson,DeVonta Smith,Cole Beasley,Devin Singletary,Christian Kirk,Pat Freiermuth,Rhamondre Stevenson
-BN5,Dontrell Hilliard,Emmanuel Sanders,Jamison Crowder,D'Ernest Johnson,David Johnson,Jarvis Landry,Sterling Shepard,Kareem Hunt,Adam Thielen,DeVante Parker
-BN6,New England,Rashod Bateman,Pittsburgh,Joe Burrow,Lamar Jackson,J.D. McKissic,Tennessee,Kendrick Bourne,Darnell Mooney,Jermar Jefferson
-BN7,,Tim Patrick,Baltimore,Green Bay,Tee Higgins,Tyler Boyd,Los Angeles,Los Angeles,Mike Davis,
-BN8,,,,,,,,,,
-K,Daniel Carlson,Evan McPherson,Brandon McManus,Justin Tucker,Ryan Succop,Tyler Bass,Greg Joseph,Matt Gay,Chris Boswell,Harrison Butker
-DEF,Kansas City,Arizona,San Francisco,Dallas,Tampa Bay,Denver,Buffalo,Carolina,New Orleans,Seattle
+QB,Kyler Murray,Ryan Tannehill,Justin Herbert,Josh Allen,Tom Brady,Jalen Hurts,Aaron Rodgers,Russell Wilson,Patrick Mahomes,
+WR1,Marquise Brown,Tyler Lockett,Tyreek Hill,Mike Evans,Ja'Marr Chase,Hunter Renfrow,Chris Godwin,DK Metcalf,Justin Jefferson,
+WR2,Russell Gage,Davante Adams,Mike Williams,Deebo Samuel,DeVonta Smith,DeAndre Hopkins,Cooper Kupp,Jalen Guyton,Terry McLaurin,
+RB1,Joe Mixon,Najee Harris,David Montgomery,James Conner,Aaron Jones,Austin Ekeler,Darrell Henderson Jr.,Saquon Barkley,Dalvin Cook,
+RB2,Clyde Edwards-Helaire,Nick Chubb,Jonathan Taylor,Cordarrelle Patterson,Alvin Kamara,Melvin Gordon III,D'Onta Foreman,Antonio Gibson,Eno Benjamin,
+TE,Austin Hooper,Dalton Schultz,Mark Andrews,George Kittle,Zach Ertz,Dallas Goedert,Noah Fant,Mike Gesicki,Rob Gronkowski,
+W/R/T,Chase Claypool,Chuba Hubbard,CeeDee Lamb,Travis Kelce,Josh Jacobs,Van Jefferson Jr.,Odell Beckham Jr.,Jeff Wilson Jr.,Courtland Sutton,
+BN1,Brandin Cooks,Elijah Moore,Michael Pittman Jr.,Leonard Fournette,DJ Moore,JaMycal Hasty,D'Andre Swift,Kyle Pitts,Mark Ingram II,Brandon Aiyuk
+BN2,T.J. Hockenson,Derek Carr,Javonte Williams,Amari Cooper,Sony Michel,Dawson Knox,Alexander Mattison,Julio Jones,Damien Harris,Jared Cook
+BN3,Jakobi Meyers,Keenan Allen,Jerry Jeudy,Antonio Brown,David Johnson,Cam Newton,Miles Sanders,AJ Dillon,Carson Wentz,James Robinson
+BN4,Nyheim Hines,Devonta Freeman,Michael Gallup,D'Ernest Johnson,Lamar Jackson,Cole Beasley,Devin Singletary,Christian Kirk,Pat Freiermuth,Ezekiel Elliott
+BN5,Dontrell Hilliard,Emmanuel Sanders,Jamison Crowder,Joe Burrow,Tee Higgins,Jarvis Landry,Rashaad Penny,Kareem Hunt,Adam Thielen,Stefon Diggs
+BN6,New England,Rashod Bateman,Pittsburgh,Ronald Jones II,A.J. Green,J.D. McKissic,Los Angeles,Kendrick Bourne,Darnell Mooney,Diontae Johnson
+BN7,,Tim Patrick,Baltimore,Green Bay,Tyler Conklin,Tyler Boyd,Philadelphia,Los Angeles,Mike Davis,Dak Prescott
+BN8,,,,,,,,,,Darrel Williams
+K,Daniel Carlson,Evan McPherson,Brandon McManus,Justin Tucker,Ryan Succop,Tyler Bass,Greg Joseph,Matt Gay,Chris Boswell,
+DEF,Kansas City,Arizona,San Francisco,Dallas,Tampa Bay,Denver,Buffalo,Miami,New Orleans,
+BN9,,,,,,,,,,Matthew Stafford
+BN10,,,,,,,,,,Tony Pollard
+BN11,,,,,,,,,,Rhamondre Stevenson
+BN12,,,,,,,,,,DeVante Parker
+BN13,,,,,,,,,,Jermar Jefferson
+BN14,,,,,,,,,,Harrison Butker
+BN15,,,,,,,,,,Seattle
